@@ -7,9 +7,18 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "bulma": "^0.9.0",
+    "feather-icons": "^4.28.0",
+    "framer-motion": "^2.7.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-modal": "^3.11.2",
+    "react-scripts": "3.4.3",
+    "react-slick": "^0.27.11",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.2.0",
+    "tailwindcss": "^1.8.10",
+    "twin.macro": "^1.10.0",
+    "use-in-view": "^1.0.15"
   },
   "scripts": {
     "start": "react-scripts start",
