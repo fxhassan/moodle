@@ -7,7 +7,6 @@ import { css } from "styled-components/macro";
 import Header from "../headers/light.js";
 
 import { ReactComponent as SvgDecoratorBlob1 } from "../../images/svg-decorator-blob-1.svg";
-import DesignIllustration from "../../images/design-illustration-2.svg";
 import edubase_landing from "../../images/edubase_landing.jpeg"
 
 const Container = tw.div`relative`;
