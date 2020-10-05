@@ -52,10 +52,10 @@ export default ({ roundedHeaderButton }) => {
         <TwoColumn>
           <LeftColumn>
             <Heading>
-              Customized E Learning Solutions <span tw="text-primary-500">for your institution.</span>
+               E Learning Solutions <span tw="text-primary-500">for your institution.</span>
             </Heading>
             <Paragraph>
-            Edubase comprises of an expert team of instructional designers who design courses which transfer knowledge to your learners efficiently and effectively.
+            Edubase comprises of an expert team of instructional designers who design courses which transfer knowledge <br />to your learners efficiently and effectively.
             </Paragraph>
           </LeftColumn>
           <RightColumn>

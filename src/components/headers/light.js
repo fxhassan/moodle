@@ -72,8 +72,8 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
   const defaultLinks = [
     <NavLinks key={1}>
       <NavLink href="/#">About</NavLink>
-      <NavLink href="/#">Features</NavLink>
-      <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="http://elearning.edubase.cc/login/index.php/">Moodle</PrimaryLink>
+      <NavLink href="/#features">Features</NavLink>
+      <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="http://elearning.edubase.cc/login/index.php/">Login</PrimaryLink>
     </NavLinks>
   ];
 
@@ -82,7 +82,11 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
 
   const defaultLogoLink = (
     <LogoLink href="/">
-      EDUBASE
+      <div>
+        <div>
+          <mark style ={{background:"none"}}>EDU</mark><mark style ={{background:"none",color:"#4bbcea"}}>BASE</mark>
+        </div>
+      </div>
     </LogoLink>
   );
 
