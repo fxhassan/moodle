@@ -12,7 +12,7 @@ function App() {
   return (
     <AnimationRevealPage disabled>
       <Hero />
-      <Features />
+      <Features  />
     </AnimationRevealPage>
   )
 }
