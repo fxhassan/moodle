@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import tw from "twin.macro";
+import {Link as ScrollLink} from "react-scroll"
 import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
 
@@ -71,8 +72,8 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
    */
   const defaultLinks = [
     <NavLinks key={1}>
-      <NavLink href="/#">About</NavLink>
-      <NavLink href="/#features">Features</NavLink>
+      <NavLink ><ScrollLink to="about-section" smooth>About</ScrollLink></NavLink>
+      <NavLink ><ScrollLink to="features-section" smooth>Features</ScrollLink></NavLink>
       <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="http://elearning.edubase.cc/login/index.php/">Login</PrimaryLink>
     </NavLinks>
   ];

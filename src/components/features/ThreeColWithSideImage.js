@@ -87,7 +87,7 @@ export default ({ cards = null, heading = "Key Features", subheading = "", descr
   if (!cards) cards = defaultCards;
 
   return (
-    <Container>
+    <Container id="features-section">
       <ThreeColumnContainer>
         {subheading && <Subheading>{subheading}</Subheading>}
         <Heading>{heading}</Heading>

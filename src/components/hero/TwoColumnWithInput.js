@@ -48,7 +48,7 @@ export default ({ roundedHeaderButton }) => {
   return (
     <>
       <Header roundedHeaderButton={roundedHeaderButton} />
-      <Container>
+      <Container id="about-section">
         <TwoColumn>
           <LeftColumn>
             <Heading>
